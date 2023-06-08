@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@600&family=Bebas+Neue&family=Merriweather:wght@300&family=Playfair+Display:wght@400;500&family=Playfair:wght@300&family=Poppins:wght@600&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------header------------ */
+.header-content{
+    background-color: rgba(4,30,58,255);
+    height: 25px;
+    font-size: .7rem;
+}
+
+/* -----------navbar------------ */
+
+.shadow{
+  background: rgb(255, 255, 255);
+  transition: 6.6s;
+}
+
+
+.container .navbar-brand{
+    font-size: 30px;
+    font-family: 'Playfair Display',sans-serif;
+    color: black ! important;
+    font-weight: 500;
+}
+
+.navbar-nav li a {
+    color: rgb(0, 0, 0) !important;
+    font-size: 14px;
+  }
+
+/* ----------carousel------------- */
+
+
+/* ----------section2--------- */
+
+.sec-two-chid-img{
+  background-image: url(/images/0523_hp_c02_bg.jpg);
+  background-size: cover;
+
+} 
+
+.child-img1-para{
+  font-family: "lora";
+  line-height: 2;
+}
+
+.sect-2-content{
+  position: absolute;
+  color: white;
+}
+
+
+/* ---------- section5 ----------- */
+.sec-5-heading,p{
+  font-family: "lora";
+  font-weight: bolder;
+}
+
+.card{
+  width: 25rem;
+  
+}
+
+.card-text{
+  font-family: "lora";
+}
+
+.card-para,p{
+  font-size: 12px;
+}
+
+/* ---------- section4 ------------ */
+.sect-4-child{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+/* -------footer------ */
+.crser{
+  cursor: pointer;
+}
+
+@media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+      
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+    .container .navbar-brand{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .offcanvas-body{
+      background-color: aliceblue;
+    }
+    .header-content{
+      visibility: hidden;
+      display: none;
+    }
+  }
+  
+@media (max-width: 576px) {
+
+  .card-main1{
+    display:flex;
+    justify-content: center;
+  }
+
+  .card-main2 {
+    display:flex;
+    justify-content: center;
+  }
+
+  .card-main3{
+    display:flex;
+    justify-content: center;
+  }
+
+  .card{
+    width: 15vmin;
+    margin: 10px 0px;
+  }
+
+  .card-para,p{
+    font-size: 7px;
+  }
+  .card-text{
+    font-size: 10px;
+  }
+  
+  .sect-4-child-img img{
+    width: 90px;
+  }
+
+  .sect-4-child-head h4{
+    font-size: .6rem;
+    line-height: 3;
+  }
+
+  .sect-4-child-para p{
+    font-size: .5rem;
+    line-height: 1;
+  }
+
+  .carousel-caption h1{
+    font-size: .8rem;
+  }
+
+  .sect-2-child1 h1{
+    font-size: 1.2rem;
+    
+  }
+  .sect-2-child1{
+    padding-top: 45px; 
+  }
+
+  .child-img1-para{
+    font-size: .9rem;
+  }
+
+  .child-img1 h6{
+    font-size: .5rem;
+  }
+
+  .carousel-caption{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1920px) {
+
+  .card{
+    width: 20vmax;
+    margin: 0px 0px;
+  }
+
+  .card-para .sop{
+    font-size: 13px;
+  }
+  .card-text{
+    font-size: 16px;
+  }
+
+  .carousel-img img{
+    width: 400px;
+  }
+
+  .sect-4-child-img img{
+    width: 190px;
+  }
+
+  .sect-4-child-head h4{
+    font-size: 1.2rem;
+    line-height: 3;
+  }
+
+  .sect-4-child-para p{
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+  .sect-2-child1{
+    padding-top: 140px;
+  }
+ }
